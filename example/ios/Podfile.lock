@@ -1,0 +1,39 @@
+PODS:
+  - Flutter (1.0.0)
+  - swrve_plugin (0.0.1):
+    - Flutter
+    - SwrveSDK (~> 6.8)
+  - SwrveConversationSDK (6.8.0):
+    - SwrveSDKCommon (= 6.8.0)
+  - SwrveSDK (6.8.0):
+    - SwrveConversationSDK (= 6.8.0)
+    - SwrveSDKCommon (= 6.8.0)
+  - SwrveSDKCommon (6.8.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - swrve_plugin (from `.symlinks/plugins/swrve_plugin/ios`)
+  - SwrveSDK
+
+SPEC REPOS:
+  trunk:
+    - SwrveConversationSDK
+    - SwrveSDK
+    - SwrveSDKCommon
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  swrve_plugin:
+    :path: ".symlinks/plugins/swrve_plugin/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  swrve_plugin: 85155ffc25f17e926559556f161856de44db5ba1
+  SwrveConversationSDK: ac81f3602a7ad7d8402232b50b36d308151e4270
+  SwrveSDK: 3c26f57a4c20f75e110f182c8ad75be864923bff
+  SwrveSDKCommon: ea075bcb7b3d5ff17940400c17aae86e3b3d49d4
+
+PODFILE CHECKSUM: 121c2bed215542e092a04fee8ac73b3a7f241861
+
+COCOAPODS: 1.10.1
