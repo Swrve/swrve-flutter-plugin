@@ -1,8 +1,8 @@
 name: swrve_plugin
-description: A new flutter plugin project.
+description: Flutter plugin to bind the Swrve iOS and Android native SDKs.
 version: 0.0.1
-author:
-homepage:
+author: Swrve
+homepage: https://swrve.com
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -28,7 +28,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.swrve.swrve_plugin
+        package: com.swrve.flutter.swrve_plugin
         pluginClass: SwrvePlugin
       ios:
         pluginClass: SwrvePlugin

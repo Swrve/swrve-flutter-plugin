@@ -6,26 +6,21 @@ import 'package:flutter/services.dart';
 class SwrvePlugin {
   static const MethodChannel _channel = const MethodChannel('swrve_plugin');
 
-  // static Future<String> get platformVersion async {
-  //   final String version = await _channel.invokeMethod('getPlatformVersion');
-  //   return version;
-  // }
-
-  Future<void> identify(String external_user_id) async {
+  Future<void> identify(String externalUserId) async {
     final Map<String, String> params = <String, String>{
-      "external_user_id": external_user_id
+      "external_user_id": externalUserId
     };
     await _channel.invokeMethod('identify', params);
   }
 
-  Future<void> start(String custom_id) async {
+  Future<void> start(String customId) async {
     final Map<String, String> params = <String, String>{
-      "custom_id": custom_id
+      "custom_id": customId
     };
     await _channel.invokeMethod('start', params);
   }
 
-  Future<void> event(String name, {Map<String, String> payload = null}) async {
+  Future<void> event(String name, {Map<String, String> payload}) async {
     final Map<String, dynamic> params = <String, dynamic>{
       "name": name,
       "payload": payload

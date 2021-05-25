@@ -4,14 +4,14 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'swrve_plugin'
-  s.version          = '0.0.1'
-  s.summary          = 'Swrve plugin for Flutter'
+  s.version          = '0.2'
+  s.summary          = 'Flutter plugin for Swrve native SDKs'
   s.description      = <<-DESC
-  Swrve plugin for Flutter
+  Flutter plugin for Swrve native SDKs
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://swrve.com'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'Swrve' => 'support@swrve.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'

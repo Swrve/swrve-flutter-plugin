@@ -1,4 +1,4 @@
-package com.swrve.swrve_plugin;
+package com.swrve.flutter.swrve_plugin;
 
 import androidx.annotation.NonNull;
 

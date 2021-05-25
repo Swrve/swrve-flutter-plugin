@@ -1,10 +1,9 @@
-group 'com.swrve.swrve_plugin'
-version '1.0'
+group 'com.swrve.flutter.swrve_plugin'
+version '0.2'
 
 buildscript {
     repositories {
         google()
-        jcenter()
     }
 
     dependencies {
@@ -15,7 +14,6 @@ buildscript {
 rootProject.allprojects {
     repositories {
         google()
-        jcenter()
         mavenCentral ()
         maven { url 'https://maven.google.com' }
     }

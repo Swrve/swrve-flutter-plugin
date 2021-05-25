@@ -25,7 +25,7 @@ class _MyAppState extends State<MyApp> {
 
   // Platform messages are asynchronous, so we initialize in an async method.
   Future<void> initPlatformState() async {
-    String pluginVersion = "0.1.0";
+    String pluginVersion = "0.2";
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
       _swrve.userUpdate({"plugin_version": pluginVersion});
